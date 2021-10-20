@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <FORm action="">
+
+<P>FIRST NAME 
+    <INPut type="text" size="20" maxlength="20">
+</P>
+<p>LAST NAME
+    
+    <input type="text" size="20" maxlength="20">
+</p>
+<p>DATE OF BIRTH
+    <select name="device">
+        <option value ="day"> day</option> 
+        <option value ="day"> 1</option> 
+        <option value ="day"> 2</option> 
+        <option value ="day"> 3</option> 
+        <option value ="day"> 4</option> 
+        <option value ="day"> 5</option> 
+        <option value ="day"> 6</option> 
+        <option value ="day"> 7</option> 
+        <option value ="day"> 8</option> 
+        <option value ="day"> 9</option> 
+        <option value ="day"> 10</option> 
+        <option value ="day"> 11</option> 
+        <option value ="day"> 12</option> 
+        <option value ="day"> 13</option> 
+        <option value ="day"> 14</option> 
+        <option value ="day"> 15</option> 
+        <option value ="day"> 16</option> 
+        <option value ="day"> 17</option> </select>
+  
+   
+    <select name="device">
+        <option value ="day"> MONTH</option> 
+        <option value ="day"> JAN</option> 
+        <option value ="day"> FEB</option> 
+        <option value ="day"> MARCH</option> 
+        <option value ="day"> APR</option> 
+        <option value ="day"> MAY</option> 
+        <option value ="day"> JUNE</option> 
+        <option value ="day"> JULY</option> 
+        <option value ="day"> AUG</option> 
+        <option value ="day"> SEP</option> 
+        <option value ="day"> OCT</option> 
+        <option value ="day"> NOV</option> 
+        <option value ="day"> DEC</option> 
+         </select>
+         
+    <select name="device">
+        <option value ="day"> year</option> 
+        <option value ="day"> 1999</option> 
+        <option value ="day"> 2000</option> 
+        <option value ="day"> 2001</option> 
+        <option value ="day"> 2002</option> 
+        <option value ="day"> 2003</option> 
+        <option value ="day"> 2004</option> 
+        <option value ="day"> 2005</option> 
+        <option value ="day"> 2006</option> 
+        <option value ="day"> 2007</option> 
+        <option value ="day"> 2008</option> 
+        <option value ="day"> 2009</option> 
+        <option value ="day"> 2010</option> 
+        <option value ="day"> 2011</option> 
+         </select>
+        </p>
+    
+    <P>Email ID 
+        <INPut type="text" size="20" maxlength="20">
+    </P>   
+    <P> Mobile Number
+        <INPut type="value" size="20" maxlength="20">
+    </P>
+    <p>GENDER
+        
+        <input type ="radio" name="x" value="Male"/>Male
+        <input type ="radio" name="x" value="Female"/>Female
+        
+    </p>
+    <P> ADDERESS
+       <textarea></textarea>
+    </P>
+    <P> CITY
+        <INPut type="value" size="20" maxlength="20">
+    </P>
+    <P> PIN CODE
+        <INPut type="value" size="20" maxlength="20">
+    </P>
+    <P> STATE
+        <INPut type="value" size="20" maxlength="20">
+    </P>
+    <P> COUNTRY
+        <INPut type="value" size="20" maxlength="20">
+    </P>
+    <p>HOBBIES
+        
+        <input type ="checkbox" name="x" value="poetry"/>poetry 
+        <input type ="checkbox" name="x" value="singing"/>singing
+        <input type ="checkbox" name="x" value="reading"/>reading
+    </p> 
+    <P> QUALIFICATION
+      <table >
+          <tr>
+              <td>S.NO EXAMINATION</td>
+              <td>BOARD</td>
+              <td>PERCENTAGE</td>
+              <td>Year of Passing</td>
+          </tr>
+          Class X 
+           <input type="text" size="20" maxlength="20">&nbsp;
+           <input type="text" size="20" maxlength="20">&nbsp;
+           <input type="text" size="20" maxlength="20">
+
+        
+      </table>
+    </P>
+    
+    please  select your fav city<br>
+    <input type ="radio"> karachi
+    <input type ="radio"> Lahore
+
+</p>
+<p>
+    Please select favorite genre:<br/>
+    <input type ="radio" name="x" value="rock"/>rock 
+    <input type ="radio" name="x" value="pop"/>pop
+    <input type ="radio" name="x" value="push"/>push
+</p>
+<p>
+    Please select favorite person:<br/>
+    <input type ="checkbox" name="x" value="rock"/>rock 
+    <input type ="checkbox" name="x" value="pop"/>pop
+    <input type ="checkbox" name="x" value="push"/>push
+</p> 
+<p>
+    What devcice do you like:<br/>
+    <select name="device">
+    <option value ="ipod"> ipod</option> 
+    <option value ="handfree">handfree</option> 
+    <option value ="X_BOX" > X_BOX</option>
+    <input type="file" name="user"/> <br>
+    <input type="submit" value="submit"/>
+
+
+</p>   
+
+
+
+</FORm>
+</body>
+</html>
