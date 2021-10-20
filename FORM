@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <FORm action="">
+
+<P>USERNAME 
+    <INPut type="text" size="20" maxlength="20">
+</P>
+<p>
+    Password
+    <input type="password" size="20" maxlength="20"
+</p>
+<p>
+    Comments 
+      
+</p>
+<textarea>
+        
+</textarea> 
+<p>
+    please  select your fav city<br>
+    <input type ="radio"> karachi
+    <input type ="radio"> Lahore
+
+</p>
+<p>
+    Please select favorite genre:<br/>
+    <input type ="radio" name="x" value="rock"/>rock 
+    <input type ="radio" name="x" value="pop"/>pop
+    <input type ="radio" name="x" value="push"/>push
+</p>
+<p>
+    Please select favorite person:<br/>
+    <input type ="checkbox" name="x" value="rock"/>rock 
+    <input type ="checkbox" name="x" value="pop"/>pop
+    <input type ="checkbox" name="x" value="push"/>push
+</p> 
+<p>
+    What devcice do you like:<br/>
+    <select name="device">
+    <option value ="ipod"> ipod</option> 
+    <option value ="handfree">handfree</option> 
+    <option value ="X_BOX" > X_BOX</option>
+    <input type="file" name="user"/> <br>
+    <input type="submit" value="submit"/>
+
+
+</p>     
+</FORm>
+</body>
+</html>
